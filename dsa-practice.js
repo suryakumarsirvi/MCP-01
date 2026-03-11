@@ -5,3 +5,10 @@ function capitalize(str) {
 
 // variation-1782410896165
 
+// Zip arrays
+function zip(a, b) {
+  return a.map((v, i) => [v, b[i]]);
+}
+
+// variation-1782410902078
+
