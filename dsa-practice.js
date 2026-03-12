@@ -12,3 +12,10 @@ function zip(a, b) {
 
 // variation-1782410902078
 
+// Random ID generator
+function generateId() {
+  return Math.random().toString(36).slice(2);
+}
+
+// variation-1782410935486
+
